@@ -58,7 +58,7 @@ class CustomDataset(utils.Dataset):
         # Train or validation dataset?
         assert subset in ["train", "val"]
         dataset_dir = os.path.join(dataset_dir + "dataset/" + subset)
-      
+
         # Load annotations
         # VGG Image Annotator saves each image in the form:
         # { 'filename': '28503151_5b5b7ec140_b.jpg',
